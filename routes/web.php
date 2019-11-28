@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+    dd('gfd');
     return view('index');
 });
 Route::post('/booking','LocationController@store');

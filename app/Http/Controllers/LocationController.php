@@ -8,7 +8,6 @@ use Illuminate\Http\Request;
 class LocationController extends Controller
 {
     public function showme(){
-        dd('gfd');
         return view('booking');
     }
     /**
