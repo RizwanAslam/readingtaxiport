@@ -121,7 +121,7 @@
                             <div class='container' id='showcost'>
                             </div> 
                             <ul class="actions" id='submit' style="visibility: hidden">
-                                   <input type='submit' value='Book'/>
+                                   <input type='submit' value='Next To Book'/>
                              </ul>
                     </div>
                 </form>
