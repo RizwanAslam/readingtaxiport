@@ -93,7 +93,7 @@
                                     var journey= document.getElementById("journey").value;
                                     if(journey!=""){
                                         var miles={{$record->distance}};
-                                        num.toFixed(miles);
+                                        miles.toFixed(2);
                                         var base=6;
                                         var fare=1.35;
                                         if(miles==1){
