@@ -105,7 +105,7 @@
 					</ul>
 				</div>
 				<div class="copyright">
-					&copy;2019 CarHose developed
+					&copy;2019 jubilecars developed
 				</div>
 			</footer>
 
