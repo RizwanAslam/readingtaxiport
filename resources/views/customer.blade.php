@@ -36,10 +36,7 @@
                 <h4>Flight Details(optional)</h4>
                 <input type="text" class="form-control" id="flight" placeholder="Enter Flight details" name="flightinfo">
             </div>
-            <div class="form-group">
-                <h4>Lead Passenger Phone No:</h4>
-                <input type="integer" class="form-control" id="ftel" placeholder="Enter contact no" name="flightphone">
-            </div>
+           
             <div class="form-group">
             <div style="visibility:hidden"> 
                 <input name='costupdate'  id='costupdate' value='{{$record->cost}}'/>
@@ -62,8 +59,12 @@
             }
             </script>
             <div class="form-group">
-                <h4>Adtional Flight Details(optional)</h4>
+                <h4>Adtional Details(optional)</h4>
                 <textarea class="form-control" rows="2" id="aditionalinfo" name='aditionalinfo'></textarea>
+            </div>
+            <div class="form-group" style="visibility:hidden">
+                <h4>Lead Passenger Phone No:</h4>
+                <input type="integer" class="form-control" id="ftel" placeholder="Enter contact no" name="flightphone">
             </div>
             <ul class="actions">
                 <input type='submit' value='Booking Placed'/>
