@@ -111,7 +111,7 @@
                                                     base*=2;
                                             }
                                             document.getElementById("showcost").innerHTML ='<h3>'+'cost:'+'£'+base.toFixed(2)+'<br>Distance:'+miles+'  Miles'+'</h3>';
-                                            document.getElementById("cost").value=base;
+                                            document.getElementById("cost").value=base.toFixed(2);
                                             document.getElementById("submit").style.visibility= "visible";
                                         }
                                     }
