@@ -99,6 +99,7 @@
                                         if(miles==1){
                                             if(journey=='return'){
                                                     base*=2;
+                                                    base.toFixed(2);
                                             }
                                             //inserting base fare
                                             document.getElementById("cost").innerHTML ="£"+base;
@@ -106,6 +107,7 @@
                                         else{
                                             for(var i=1;i<miles;i++){
                                                 base+=fare;
+                                                base.toFixed(2);
                                                 //ownword fare icremented by 1.35£ 
                                             }
                                             if(journey=='return'){
