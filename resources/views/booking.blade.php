@@ -93,13 +93,11 @@
                                     var journey= document.getElementById("journey").value;
                                     if(journey!=""){
                                         var miles={{$record->distance}};
-                                        miles.toFixed(2);
                                         var base=6;
                                         var fare=1.35;
                                         if(miles==1){
                                             if(journey=='return'){
                                                     base*=2;
-                                                    base.toFixed(2);
                                             }
                                             //inserting base fare
                                             document.getElementById("cost").innerHTML ="£"+base;
@@ -107,13 +105,12 @@
                                         else{
                                             for(var i=1;i<miles;i++){
                                                 base+=fare;
-                                                base.toFixed(2);
                                                 //ownword fare icremented by 1.35£ 
                                             }
                                             if(journey=='return'){
                                                     base*=2;
                                             }
-                                            document.getElementById("showcost").innerHTML ='<h3>'+'cost:'+'£'+base+'<br>Distance:'+miles+'  Miles'+'</h3>';
+                                            document.getElementById("showcost").innerHTML ='<h3>'+'cost:'+'£'+base.toFixed(2)+'<br>Distance:'+miles+'  Miles'+'</h3>';
                                             document.getElementById("cost").value=base;
                                             document.getElementById("submit").style.visibility= "visible";
                                         }
