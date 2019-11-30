@@ -100,7 +100,7 @@
 					<h2>Get In Touch</h2>
 					<ul class="actions">
 						<li><span class="icon fa-phone"></span> <a href="#">(000) 000-0000</a></li>
-						<li><span class="icon fa-envelope"></span> <a href="#">saadatbhuto@gmail.com</a></li>
+						<li><span class="icon fa-envelope"></span> <a href="#">saadat.bhuto@gmail.com</a></li>
 						<li><span class="icon fa-map-marker"></span> Reading</li>
 					</ul>
 				</div>
