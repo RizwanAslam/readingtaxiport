@@ -10,7 +10,7 @@
             <strong>Success!</strong> {{$record->name}} Your booking has been placed succesfully.
         </div>
             <div class="container">
-                <h3>{{$record->name}} Your Phone no is {{$record->telephone}} <br>and email {{$record->email}}</h3>          
+                <h3>{{$record->name}} Your Phone number is {{$record->telephone}} <br>and email {{$record->email}}</h3>          
                 
             </div>
 
