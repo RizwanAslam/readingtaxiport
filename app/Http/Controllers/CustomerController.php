@@ -50,7 +50,7 @@ class CustomerController extends Controller
             'aditionalinfo'=>$request->aditionalinfo
         ]);
         booking::where('id',$request->vehical_id)->update(['cost'=>$request->costupdate]);
-        if($create){
+       /* if($create){
             $to_name = 'sadia arooj';
             $to_email = 'sadiaarooj721@gmail.com';
             $data = array('name'=>"Sadia", "body" => "Test mail");    
@@ -58,7 +58,7 @@ class CustomerController extends Controller
                 $message->to($to_email, $to_name)
                         ->subject('Artisans Web Testing Mail');
                 $message->from('sadiaarooj111@gmail.com','sadia arooj');
-            });
+            });*/
             $record=customer::find($create->id);
             return view('final',compact('record'));
         }
