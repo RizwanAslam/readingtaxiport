@@ -50,15 +50,7 @@ class CustomerController extends Controller
             'aditionalinfo'=>$request->aditionalinfo
         ]);
         booking::where('id',$request->vehical_id)->update(['cost'=>$request->costupdate]);
-       /* if($create){
-            $to_name = 'sadia arooj';
-            $to_email = 'sadiaarooj721@gmail.com';
-            $data = array('name'=>"Sadia", "body" => "Test mail");    
-            Mail::send('emails.mail', $data, function($message) use ($to_name, $to_email) {
-                $message->to($to_email, $to_name)
-                        ->subject('Artisans Web Testing Mail');
-                $message->from('sadiaarooj111@gmail.com','sadia arooj');
-            });*/
+        if($create){
             $record=customer::find($create->id);
             return view('final',compact('record'));
         }
