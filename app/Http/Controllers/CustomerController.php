@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\customer;
 use App\booking;
 use Illuminate\Http\Request;
-use Mail;
+
 
 class CustomerController extends Controller
 {
