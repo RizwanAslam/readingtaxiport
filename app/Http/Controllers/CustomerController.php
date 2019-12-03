@@ -54,9 +54,9 @@ class CustomerController extends Controller
         if($create){
             $data='sadia is great';
             Mail::send('email.mail',$data,function($message){
-                $message->to('sadiaarooj111@gmail.com','sadia arooj')
+                $message->to('sadiaarooj111@gmail.com','Sadia Arooj')
                 ->subject('testing');
-                $message->from('sadiaarooj111@gmail.com','sadia arooj');
+                $message->from('sadiaarooj111@gmail.com','Sadia Arooj');
             });
             $record=customer::find($create->id);
             return view('final',compact('record'));
