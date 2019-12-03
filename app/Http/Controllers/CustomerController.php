@@ -52,12 +52,12 @@ class CustomerController extends Controller
         ]);
         booking::where('id',$request->vehical_id)->update(['cost'=>$request->costupdate]);
         if($create){
-            $data='sadia is great';
+            /*$data='sadia is great';
             Mail::send(function($message){
                 $message->to('sadiaarooj721@gmail.com','sadia arooj')
                 ->subject('testing');
                 $message->from('sadiaarooj111@gmail.com','sadia arooj');
-            });
+            });*/
             $record=customer::find($create->id);
             return view('final',compact('record'));
         }
