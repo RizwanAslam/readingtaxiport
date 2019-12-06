@@ -20,8 +20,10 @@
 		<!-- Header -->
 			<header id="header">
 				<nav class="left">
-					<span class="icon fa-phone"></span> <a href="#">07450215762</a>
-					<span class="icon fa-envelope"></span> <a href="#">Bookings@jubilecars.com</a>
+				<ul>
+					<li><span class="icon fa-phone"></span> <a href="#">07450215762</a></li>
+					<li><span class="icon fa-envelope"></span> <a href="#">Bookings@jubilecars.com</a></li>
+				</ul>
 				</nav>
 				<a href="/" class="logo">jubilecars</a>
 				<nav class="right">
