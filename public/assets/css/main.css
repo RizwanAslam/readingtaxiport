@@ -2682,7 +2682,7 @@
 		text-align: center;
 	}
 
-		 .logo {
+		#header .logo {
 			color: #f6755e;
 			font-family: "Pacifico", cursive;
 			font-size: 2.5em;
@@ -2755,7 +2755,7 @@
 			line-height: 44px;
 		}
 
-			.logo {
+			#header .logo {
 				font-size: 1.25em;
 				text-align: center;
 			}
