@@ -43,7 +43,7 @@
 		@yield('content')
 		<!-- Two -->
 		<section id="two" class="wrapper">
-			<div class="container">
+			<div class="jumbotron">
 			<p>We pride ourselves on Being the Best Reading private Hire Taxi & Chauffeur service to People of Reading and surrounding areas. 
 
 				serve all major Uk Airports and offers competitive rates on Airport transfers and long journeys.</p>
