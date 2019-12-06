@@ -20,14 +20,10 @@
 		<!-- Header -->
 			<header id="header">
 				<nav class="left">
-				<ul>
-					<li><span class="icon fa-phone"></span> <a href="#">07450215762</a></li>
-					<li><span class="icon fa-envelope"></span> <a href="#">Bookings@jubilecars.com</a></li>
-				</ul>
+					<span class="icon fa-phone"></span> <a href="#">07450215762</a>
 				</nav>
-				<a href="/" class="logo">jubilecars</a>
 				<nav class="right">
-					
+					<span class="icon fa-envelope"></span> <a href="#">Bookings@jubilecars.com</a>
 				</nav>
 			</header>
 		@yield('content')
