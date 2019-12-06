@@ -20,26 +20,13 @@
 		<!-- Header -->
 			<header id="header">
 				<nav class="left">
-					<a href="#menu"><span>Menu</span></a>
+					<span class="icon fa-phone"></span> <a href="#">07450215762</a>
 				</nav>
 				<a href="/" class="logo">jubilecars</a>
 				<nav class="right">
-					<a href="#" class="button alt">Log in</a>
+					<span class="icon fa-envelope"></span> <a href="#">Bookings@jubilecars.com</a>
 				</nav>
 			</header>
-
-		<!-- Menu -->
-			<nav id="menu">
-				<ul class="links">
-					<li><a href="#">Home</a></li>
-				</ul>
-				<ul class="actions vertical">
-					<li><a href="#" class="button fit">Login</a></li>
-				</ul>
-			</nav>
-
-		
-
 		@yield('content')
 		<!-- one-->
 		<section id="one" class="wrapper">
@@ -123,8 +110,8 @@
 				<div class="inner">
 					<h2>Get In Touch</h2>
 					<ul class="actions">
-						<li><span class="icon fa-phone"></span> <a href="#">(000) 000-0000</a></li>
-						<li><span class="icon fa-envelope"></span> <a href="#">saadat.bhuto@gmail.com</a></li>
+						<li><span class="icon fa-phone"></span> <a href="#">07450215762</a></li>
+						<li><span class="icon fa-envelope"></span> <a href="#">Bookings@jubilecars.com</a></li>
 						<li><span class="icon fa-map-marker"></span> Reading</li>
 					</ul>
 				</div>
