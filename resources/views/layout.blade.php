@@ -43,7 +43,7 @@
 		@yield('content')
 		<!-- one-->
 		<section id="one" class="wrapper">
-			<div class="container" style='width:60%; text-align: center;'>
+			<div class="container" style='width:60%; text-align: center;text-align: justify;'>
 			<h3>ABOUT US</h3>
 			<p>We pride ourselves on Being the Best Reading private Hire Taxi & Chauffeur service to People of Reading and surrounding areas. 
 				serve all major Uk Airports and offers competitive rates on Airport transfers and long journeys.</p>
@@ -51,7 +51,7 @@
 		</section>
 		<!-- Two -->
 		<section id="two" class="wrapper">
-			<div class="container" style='width:60%; text-align: center;'>
+			<div class="container" style='width:60%; text-align: center;text-align: justify;'>
 			<h3>OUR SERVICES</h3>
 					<ul>
 						<li>Pleased to offer 24 hours service</li>
