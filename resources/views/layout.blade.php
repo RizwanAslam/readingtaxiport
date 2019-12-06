@@ -26,14 +26,14 @@
 			</header>
 		@yield('content')
 		<!-- one-->
-		<a href="/" class="logo" style='color: #f6755e;
+		<section id="one" class="wrapper">
+			<div class="container" style='width:60%; text-align: center;'>
+			<a href="/" class="logo" style='color: #f6755e;
 			font-family: "Pacifico", cursive;
 			font-size: 2.5em;
 			letter-spacing: 2px;
 			margin-top: -5px;
 			text-decoration: none;'>jubilecars</a>
-		<section id="one" class="wrapper">
-			<div class="container" style='width:60%; text-align: center;'>
 			<h3>ABOUT US</h3>
 			<p style='text-align: justify;'>We pride ourselves on Being the Best Reading private Hire Taxi & Chauffeur service to People of Reading and surrounding areas. 
 				serve all major Uk Airports and offers competitive rates on Airport transfers and long journeys.</p>
