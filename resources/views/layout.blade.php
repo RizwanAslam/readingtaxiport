@@ -21,8 +21,6 @@
 			<header id="header">
 				<nav class="left">
 					<span class="icon fa-phone"></span> <a href="#">07450215762</a>
-				</nav>
-				<nav class="right">
 					<span class="icon fa-envelope"></span> <a href="#">Bookings@jubilecars.com</a>
 				</nav>
 			</header>
