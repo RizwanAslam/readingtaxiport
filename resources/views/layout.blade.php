@@ -23,7 +23,7 @@
 					<span class="icon fa-phone"></span> <a href="#">07450215762</a>
 				</nav>
 				<a href="/" class="logo">jubilecars</a>
-				<nav class="right">
+				<nav class="left">
 					<span class="icon fa-envelope"></span> <a href="#">Bookings@jubilecars.com</a>
 				</nav>
 			</header>
