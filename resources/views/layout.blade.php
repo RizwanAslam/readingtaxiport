@@ -26,7 +26,12 @@
 			</header>
 		@yield('content')
 		<!-- one-->
-		<a href="/" class="logo">jubilecars</a>
+		<a href="/" class="logo" style='color: #f6755e;
+			font-family: "Pacifico", cursive;
+			font-size: 2.5em;
+			letter-spacing: 2px;
+			margin-top: -5px;
+			text-decoration: none;'>jubilecars</a>
 		<section id="one" class="wrapper">
 			<div class="container" style='width:60%; text-align: center;'>
 			<h3>ABOUT US</h3>
