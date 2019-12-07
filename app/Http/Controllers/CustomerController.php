@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Mail\SendMail;
+use Illuminate\Support\Facades\Mail;
 use App\customer;
 use App\booking;
 use Illuminate\Http\Request;
@@ -52,13 +53,8 @@ class CustomerController extends Controller
         ]);
         booking::where('id',$request->vehical_id)->update(['cost'=>$request->costupdate]);
         if($create){
-            /*$data='sadia is great';
-            Mail::send(function($message){
-                $message->to('sadiaarooj721@gmail.com','sadia arooj')
-                ->subject('testing');
-                $message->from('sadiaarooj111@gmail.com','sadia arooj');
-            });*/
             $record=customer::find($create->id);
+            Mail::to('sadiaarooj111@gmail.com')->send(new SendMail($record));
             return view('final',compact('record'));
         }
         
