@@ -5,7 +5,6 @@ use App\Mail\SendMail;
 use Illuminate\Support\Facades\Mail;
 use App\customer;
 use App\booking;
-use Mail;
 use Illuminate\Http\Request;
 
 
