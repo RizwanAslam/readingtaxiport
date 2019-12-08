@@ -1,5 +1,4 @@
 <?php
-use App\Mail\SendMail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,10 +11,6 @@ use App\Mail\SendMail;
 */
 
 Route::get('/', function () {
-
-    return view('index');
-});
-Route::get('/email', function () {
 
     return view('index');
 });
