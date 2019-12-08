@@ -17,7 +17,7 @@ Route::get('/', function () {
 });
 Route::get('/email', function () {
 
-    return new SendMail();
+    return view('index');
 });
 Route::post('/booking','LocationController@store');
 Route::post('/customer','BookingController@store');
