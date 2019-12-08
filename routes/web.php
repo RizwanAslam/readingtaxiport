@@ -1,5 +1,5 @@
 <?php
-
+use App\Mail\SendMail;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +14,10 @@
 Route::get('/', function () {
 
     return view('index');
+});
+Route::get('/email', function () {
+
+    return new SendMail();
 });
 Route::post('/booking','LocationController@store');
 Route::post('/customer','BookingController@store');
