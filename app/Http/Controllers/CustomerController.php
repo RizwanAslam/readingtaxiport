@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Mail\SendMail;
+use Mail;
 use App\customer;
 use App\booking;
 use Illuminate\Http\Request;
@@ -52,6 +54,7 @@ class CustomerController extends Controller
         booking::where('id',$request->vehical_id)->update(['cost'=>$request->costupdate]);
         if($create){
             $record=customer::find($create->id);
+            Mail::to($create)->send(new SendMail());
             return view('final',compact('record'));
         }
         
