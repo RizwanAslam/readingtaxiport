@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Mail;
-use App\customer;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -16,11 +15,9 @@ class SendMail extends Mailable
      *
      * @return void
      */
-    public $customer;
-    public function __construct(customer $customer)
+    public function __construct()
     {
         //
-        $this->customer = $customer;
     }
 
     /**
