@@ -28,7 +28,7 @@ class SendMail extends Mailable
      */
     public function build()
     {
-       // $info=\App\customer::latest('created_at')->limit(1)->get();
-        return $this->markdown('emails.send');
+        $info=\App\customer::latest('created_at')->limit(1)->get();
+        return $this->markdown('emails.send',compact('info'));
     }
 }
