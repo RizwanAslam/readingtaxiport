@@ -54,7 +54,7 @@ class CustomerController extends Controller
         booking::where('id',$request->vehical_id)->update(['cost'=>$request->costupdate]);
         if($create){
             $record=customer::find($create->id);
-            Mail::to('sadiaarooj111@gmail.com')->send(new SendMail());
+            Mail::to($create)->send(new SendMail());
             return view('final',compact('record'));
         }
         
