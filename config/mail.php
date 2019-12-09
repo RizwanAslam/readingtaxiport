@@ -56,7 +56,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'booking@jubilecars.com'),
+        'address' => env('MAIL_FROM_ADDRESS', 'bookings@jubilecars.com'),
         'name' => env('MAIL_FROM_NAME', 'jubilecars'),
     ],
 
