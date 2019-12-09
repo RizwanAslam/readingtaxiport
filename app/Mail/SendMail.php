@@ -10,6 +10,7 @@ use Illuminate\Queue\SerializesModels;
 class SendMail extends Mailable
 {
     use Queueable, SerializesModels;
+    public $name= 'fsdf';
 
     /**
      * Create a new message instance.
@@ -28,7 +29,8 @@ class SendMail extends Mailable
      */
     public function build()
     {
-        $info=\App\customer::latest('created_at')->limit(1)->get();
+        $info=\App\customer::latest('created_at')->limit(1)->first();
+        
         return $this->markdown('emails.send',compact('info'));
     }
 }
