@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Mail\SendMail;
+use App\Mail\BookingConfirmation;
 use App\Mail\ReceiveMail;
 use Mail;
 use App\customer;
@@ -55,7 +55,7 @@ class CustomerController extends Controller
         booking::where('id',$request->vehical_id)->update(['cost'=>$request->costupdate]);
         if($create){
             $record=customer::find($create->id);
-            Mail::to($create)->send(new SendMail());
+            Mail::to($create)->send(new BookingConfirmation());
             Mail::to('saadat.bhutto@gmail.com')->send(new ReceiveMail());
             return view('final',compact('record'));
         }
