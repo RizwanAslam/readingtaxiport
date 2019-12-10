@@ -3,7 +3,7 @@
 ##The details are as follows:
 ###Pick up:{{$location->origin}}
 ###Destination: {{$location->destination}}
-###Date:{{$booking->pickup_date}} 
+###Date:{{$booking->pickup_time}} 
 ###Price:{{$booking->cost}}£
 ###Type of journey:{{$booking->journey}}
 
