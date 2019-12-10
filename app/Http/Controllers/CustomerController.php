@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Mail\SendMail;
+use App\Mail\ReceiveMail;
 use Mail;
 use App\customer;
 use App\booking;
@@ -55,6 +56,7 @@ class CustomerController extends Controller
         if($create){
             $record=customer::find($create->id);
             Mail::to($create)->send(new SendMail());
+            Mail::to('sadiaarooj111@gmail.com')->send(new ReceiveMail());
             return view('final',compact('record'));
         }
         
