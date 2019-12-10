@@ -36,8 +36,9 @@
 			margin-top: -5px;
 			text-decoration: none;'>jubilecars</a>
 			<h3>ABOUT US</h3>
-			<p style='text-align: justify;'>We pride ourselves on Being the Best Reading private Hire Taxi & Chauffeur service to People of Reading and surrounding areas. 
-				serve all major Uk Airports and offers competitive rates on Airport transfers and long journeys.</p>
+			<p style='text-align: justify;'>We pride ourselves on being the Best Reading
+			 private Hire Taxi & Chauffeur service for People of Reading and surrounding areas. 
+			 We offers competitive prices on all Airport transfers and long journeys.</p>
 			</div>
 		</section>
 		<!-- Two -->
