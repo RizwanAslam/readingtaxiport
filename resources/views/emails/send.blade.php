@@ -1,6 +1,14 @@
 @component('mail::message')
-# {{$customer->name}} your booking  hase been placed
-##Your are going from {{$location->origin}} to {{$location->destination}}
-##at date {{$booking->pickup_date}} in cost {{$booking->cost}}£.
-Thanks,<br>
+#Dear {{$customer->name}} , we have received your booking and and now is being processed.
+##The details are as follows:
+###Pick up:{{$location->origin}}
+###Destination: {{$location->destination}}
+###Date:{{$booking->pickup_date}} 
+###Price:{{$booking->cost}}£
+###Type of journey:{{$booking->vehicalType}}
+
+Thank you for booking your journey with us.
+Jubile Cars.
+Phone number.
+www.jubilecars.com
 @endcomponent
