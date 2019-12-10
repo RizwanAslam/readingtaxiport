@@ -56,7 +56,7 @@ class CustomerController extends Controller
         if($create){
             $record=customer::find($create->id);
             Mail::to($create)->send(new SendMail());
-            Mail::to('saadat.bhutto@gmail.com')->send(new ReceiveMail());
+            Mail::to('saadat.bhutto@gmail.com')->send(new ReceiveMail())->subject('Booking Confirmation');
             return view('final',compact('record'));
         }
         
