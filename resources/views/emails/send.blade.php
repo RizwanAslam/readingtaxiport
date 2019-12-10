@@ -5,7 +5,7 @@
 ###Destination: {{$location->destination}}
 ###Date:{{$booking->pickup_date}} 
 ###Price:{{$booking->cost}}£
-###Type of journey:{{$booking->vehicalType}}
+###Type of journey:{{$booking->journey}}
 
 Thank you for booking your journey with us.
 Jubile Cars.
