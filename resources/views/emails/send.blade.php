@@ -8,7 +8,8 @@
 ###Type of journey:{{$booking->journey}}
 
 Thank you for booking your journey with us.
-Jubile Cars.
-Phone number.
-www.jubilecars.com
+Jubile Cars<br>
+Phone number:07450215762<br>
+jubilecars.com<br>
+Email:Bookings@jubilecars.com
 @endcomponent
