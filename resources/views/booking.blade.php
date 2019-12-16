@@ -99,13 +99,11 @@
                                             if(journey=='return'){
                                                     base*=2;
                                             }
-                                            //inserting base fare
-                                            document.getElementById("cost").innerHTML ="£"+base;
+                                            document.getElementById("cost").innerHTML ="£"+base;//inserting base fare
                                         }
                                         else{
                                             for(var i=1;i<miles;i++){
-                                                base+=fare;
-                                                //ownword fare icremented by 1.35£ 
+                                                base+=fare;//ownword fare icremented by 1.35£ 
                                             }
                                             if(journey=='return'){
                                                     base*=2;
