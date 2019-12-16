@@ -1,5 +1,5 @@
 @component('mail::message')
-# Customer hase Placed booking
+# Customer has Placed booking
 ## Name of customer
              {{$customer->name}}
 ## Company
