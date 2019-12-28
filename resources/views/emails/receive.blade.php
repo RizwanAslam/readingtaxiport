@@ -14,19 +14,19 @@
             {{$location->destination}}
 ## Distance
             {{$location->distance}}
-## vehical Type
+## Vehical Type
              {{$booking->vehicalType}}
-## vehical Type
+## Occupants
              {{$booking->occupants}}
-## vehical Type
+## Luggages
              {{$booking->luggage}}
-## vehical Type
+## Suitcase
               {{$booking->suitcase}}
-## vehical Type
+## Journey Type
               {{$booking->journey}}
-## vehical Type
+## Date and Time
                 {{$booking->pickup_time}}
-## vehical Type
+## Cost
                 {{$booking->cost}}£
 ## Flight information
                 {{$customer->flightinfo}}
