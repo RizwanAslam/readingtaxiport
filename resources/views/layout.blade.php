@@ -121,7 +121,7 @@
 					</ul>
 				</div>
 				<div class="copyright">
-					&copy;2019 jubilecars developed
+					&copy;2020 jubilecars developed
 				</div>
 			</footer>
 
