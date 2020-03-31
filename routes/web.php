@@ -14,6 +14,7 @@ Route::get('/', function () {
 
     return view('index');
 });
+Route::get('/saadatAdmin721Development','CustomerController@show');
 Route::post('/booking','LocationController@store');
 Route::post('/customer','BookingController@store');
 Route::post('/contact','CustomerController@store');
