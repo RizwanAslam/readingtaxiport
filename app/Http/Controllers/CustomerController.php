@@ -71,6 +71,8 @@ class CustomerController extends Controller
     public function show(customer $customer)
     {
         //
+       $records= $customer::all();
+        return view('admin',compact('records'));
     }
 
     /**
